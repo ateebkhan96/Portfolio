@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.e25268b2.css",
+    "main.js": "/Portfolio/static/js/main.74bc2f25.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/me.png": "/Portfolio/static/media/me.ba4a6537d737aae0d5de.png",
+    "static/media/Group 4 (1).png": "/Portfolio/static/media/Group 4 (1).2f82fd5f3cae70735617.png",
+    "static/media/flask.svg": "/Portfolio/static/media/flask.0eabf7e7b579578090f552335f294e0f.svg",
+    "static/media/streamlit-logo-primary-colormark-darktext.png": "/Portfolio/static/media/streamlit-logo-primary-colormark-darktext.3c1b4f345e6d178dacc0.png",
+    "static/media/mysql-original-wordmark.svg": "/Portfolio/static/media/mysql-original-wordmark.0b9bc0186525f731d3c8f5ade5f64deb.svg",
+    "static/media/1174949_js_react js_logo_react_react native_icon.svg": "/Portfolio/static/media/1174949_js_react js_logo_react_react native_icon.f1484e295933af0e748d6a01b05a8361.svg",
+    "static/media/icons8-docker.svg": "/Portfolio/static/media/icons8-docker.c49ffb5c2e6d11bfae9683eefe8cdedc.svg",
+    "static/media/icons8-python.svg": "/Portfolio/static/media/icons8-python.026a62687ef705a39cfc755d7457859c.svg",
+    "static/media/icons8-numpy.svg": "/Portfolio/static/media/icons8-numpy.9a40a8a4f8598cd5ae26490a9d05556a.svg",
+    "static/media/django.svg": "/Portfolio/static/media/django.6ce5529c9ef01d428230ef2b3eb4e6fe.svg",
+    "static/media/icons8-opencv.svg": "/Portfolio/static/media/icons8-opencv.1de1335640fd2fd6e76ef902e485c27d.svg",
+    "static/media/icons8-javascript.svg": "/Portfolio/static/media/icons8-javascript.081325c6f229605dce15142ddd948d6d.svg",
+    "static/media/icons8-pytorch.svg": "/Portfolio/static/media/icons8-pytorch.27f8e5f0bb06ca99d9ffda275e093afa.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/Keras.svg": "/Portfolio/static/media/Keras.b852d825ef4ce69bfa43caa6b3c66c02.svg",
+    "static/media/icons8-pandas.svg": "/Portfolio/static/media/icons8-pandas.723865921e0c32f0412521c5d3db3ed7.svg",
+    "static/media/icons8-power-bi-2021.svg": "/Portfolio/static/media/icons8-power-bi-2021.cdb68a90e89b61263c74b945d8429d05.svg",
+    "static/media/icons8-css.svg": "/Portfolio/static/media/icons8-css.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
+    "static/media/icons8-html.svg": "/Portfolio/static/media/icons8-html.c1bb84e022ca9d76984d4b943bd678fd.svg",
+    "static/media/icons8-tensorflow.svg": "/Portfolio/static/media/icons8-tensorflow.d978d6b0a450f5416ab4aa62d3795a0c.svg",
+    "main.e25268b2.css.map": "/Portfolio/static/css/main.e25268b2.css.map",
+    "main.74bc2f25.js.map": "/Portfolio/static/js/main.74bc2f25.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e25268b2.css",
+    "static/js/main.74bc2f25.js"
+  ]
+}
