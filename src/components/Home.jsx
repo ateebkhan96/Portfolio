@@ -21,8 +21,8 @@ const Home = () => {
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 ">
                 <div className="flex flex-col justify-center h-full">
                     <div className="flex flex-col sm:flex-row mt-14 items-center sm:items-baseline text-3xl md:text-7xl sm:text-5xl font-bold text-white">
-                        <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl">Hi <span className="wave-animation -ml-4 mr-0 mx-2 img waving hand">👋</span>, I'm</h2>
-                        <h2 className='name-title text-5xl md:text-8xl sm:text-5xl ml-5 hover:text-yellow-400'>Ateeb Khan</h2>
+                        <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl">Hi <span className="wave-animation ml-0 md:-ml-4 sm:-ml-2 mr-0 mx-2 img waving hand">👋</span>, I'm</h2>
+                        <h2 className='name-title text-5xl md:text-8xl sm:text-5xl ml-5 hover:text-yellow-400 duration-500'>Ateeb Khan</h2>
                     </div>
                     <p className="text-xl sm:text-2xl md:text-4xl lg:text-5xl text-center text-gray-500 py-4">
                         Machine Learning Engineer

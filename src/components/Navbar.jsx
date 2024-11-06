@@ -14,30 +14,29 @@ import { Link } from 'react-scroll';
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
-    const col = '#ffcc00';
 
     return (
         <div className='fixed w-full h-[40px] rounded-b-full flex justify-center items-center px-4 bg-gradient-to-r from-indigo-800 via-purple-800 to-pink-900 opacity-90 text-gray-300
-        shadow-lg  hover:shadow-white/70 z-50'>
+        shadow-lg  hover:shadow-yellow-100/70 duration-500 z-50'>
             {/* Menu */}
             <ul className='hidden md:flex gap-x-8 text-white text-[18px]'>
                 <li>
-                    <Link className={`hover:text-[${col}]`} to='home' smooth={true} duration={500}>
+                    <Link className={`hover:text-[#FFB6C1]`} to='home' smooth={true} duration={500}>
                         Home
                     </Link>
                 </li>
                 <li>
-                    <Link className={`hover:text-[${col}]`} to='about' smooth={true} duration={500}>
+                    <Link className={`hover:text-[#FFB6C1]`} to='about' smooth={true} duration={500}>
                         About
                     </Link>
                 </li>
                 <li>
-                    <Link className={`hover:text-[${col}]`} to='skills' smooth={true} duration={500}>
+                    <Link className={`hover:text-[#FFB6C1]`} to='skills' smooth={true} duration={500}>
                         Skills
                     </Link>
                 </li>
                 <li>
-                    <Link className={`hover:text-[${col}]`} to='projects' smooth={true} duration={500}>
+                    <Link className={`hover:text-[#FFB6C1]`} to='projects' smooth={true} duration={500}>
                         Projects
                     </Link>
                 </li>
@@ -71,14 +70,8 @@ const Navbar = () => {
                 </li>
                 <li className='py-6 text-4xl'>
                     {' '}
-                    <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-                        Work
-                    </Link>
-                </li>
-                <li className='py-6 text-4xl'>
-                    {' '}
-                    <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-                        Contact
+                    <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
+                        Projects
                     </Link>
                 </li>
             </ul>

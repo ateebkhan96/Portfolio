@@ -14,7 +14,7 @@ const About = () => {
                             About Me
                         </p>
                     </div>
-                    <div className="max-w-[1000px] w-full px-4 text-lg sm:text-xl font-medium text-justify mt-8">
+                    <div className="max-w-[1000px] w-full px-4 text-lg sm:text-xl font-medium md:text-justify sm:text-center mt-8">
                         <p>
                             Hi, I'm Ateeb Khan, a Machine Learning and Computer Vision enthusiast with a strong background in data analysis and software development. My journey has been centered on developing AI-driven solutions that make a difference, with hands-on experience in deep learning, time series forecasting, and end-to-end model deployment. I am passionate about translating complex data into actionable insights and building intuitive, impactful applications. I’m always eager to embrace new challenges, collaborate, and grow as part of a forward-thinking team.
                         </p>
