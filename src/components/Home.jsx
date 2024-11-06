@@ -1,6 +1,5 @@
 import React from "react";
 import { HiArrowNarrowRight, HiArrowRight } from "react-icons/hi";
-import me from '../assets/me.png'
 import {
     FaBars,
     FaTimes,
