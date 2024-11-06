@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  body {
+    @apply font-[Raleway];
+    background: linear-gradient(135deg, #0b2a4b, #2c2d47, #432c6e);
+  }
+
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+
+  }
+}
+
+/* Adjusted CSS for the animated background on the name-title class */
+.name-title {
+  position: relative;
+  display: inline-block;
+  /* Ensures only the text area is targeted */
+  cursor: pointer;
+}
+
+.name-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  z-index: -1;
+  display: inline-block;
+  width: 100%;
+  /* Ensures the background is only as wide as the text */
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.name-title:hover::before {
+  transform: scaleX(1);
+
+  transform-origin: bottom left;
+}
+
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(to right,
+      rgba(112, 157, 255, 0.8),
+      hsla(242, 74%, 61%, 0.8)) !important;
+}
+
+.wave-animation {
+  display: inline-block;
+  /* Allows the span to be animated */
+  transform-origin: 70% 70%;
+  /* Adjust the origin for a realistic wave */
+}
+
+.wave-animation:hover {
+  animation: wave 1.5s ease-in-out infinite;
+  /* Animation applied on hover */
+}
+
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  20% {
+    transform: rotate(15deg);
+  }
+
+  40% {
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    transform: rotate(15deg);
+  }
+
+  80% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
