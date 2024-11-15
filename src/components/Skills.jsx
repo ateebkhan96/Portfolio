@@ -1,8 +1,4 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { CgFileDocument } from "react-icons/cg";
-
 import python from '../assets/icons8-python.svg';
 import js from '../assets/icons8-javascript.svg';
 import tf from '../assets/icons8-tensorflow.svg';

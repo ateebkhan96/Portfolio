@@ -2,13 +2,7 @@ import React, { useState } from 'react';
 import {
     FaBars,
     FaTimes,
-    FaGithub,
-    FaLinkedin,
-    FaFacebook,
-    FaLinkedinIn,
 } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonFill, BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -17,26 +11,26 @@ const Navbar = () => {
 
     return (
         <div className='fixed w-full h-[40px] rounded-b-full flex justify-center items-center px-4 bg-gradient-to-r from-indigo-800 via-purple-800 to-pink-900 opacity-90 text-gray-300
-        shadow-lg  hover:shadow-yellow-100/70 duration-500 z-50'>
+        shadow-lg  hover:shadow-yellow-50/70 duration-500 z-50'>
             {/* Menu */}
             <ul className='hidden md:flex gap-x-8 text-white text-[18px]'>
                 <li>
-                    <Link className={`hover:text-[#FFB6C1]`} to='home' smooth={true} duration={500}>
+                    <Link className={`hover:text-pink-400`} to='home' smooth={true} duration={500}>
                         Home
                     </Link>
                 </li>
                 <li>
-                    <Link className={`hover:text-[#FFB6C1]`} to='about' smooth={true} duration={500}>
+                    <Link className={`hover:text-pink-400`} to='about' smooth={true} duration={500}>
                         About
                     </Link>
                 </li>
                 <li>
-                    <Link className={`hover:text-[#FFB6C1]`} to='skills' smooth={true} duration={500}>
+                    <Link className={`hover:text-pink-400`} to='skills' smooth={true} duration={500}>
                         Skills
                     </Link>
                 </li>
                 <li>
-                    <Link className={`hover:text-[#FFB6C1]`} to='projects' smooth={true} duration={500}>
+                    <Link className={`hover:text-pink-400`} to='projects' smooth={true} duration={500}>
                         Projects
                     </Link>
                 </li>
