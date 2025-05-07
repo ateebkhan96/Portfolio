@@ -26,18 +26,18 @@ const Works = () => {
                         <div
                             className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col transition-opacity duration-300 p-4'>
                             <span className='text-lg font-bold text-white tracking-wider text-center'>
-                                Face Mask Detection using YOLO11 and Streamlit
+                                Face Mask Detection webapp uses DenseNet for accurate classification and MediaPipe for face detection.
                             </span>
-                            <p className='text-center mt-2 text-black'>This application uses YOLO11 to detect face masks in images
+                            <p className='text-center mt-2 text-black'>This application uses DenseNet and Mediapipe to detect face masks in images
                                 😷</p>
                             <div className='pt-3 text-center'>
-                                <a href='https://face-mask-det.streamlit.app/' target="_blank">
+                                <a href='https://face-mask-detection-system.streamlit.app/' target="_blank">
                                     <button
                                         className='text-center rounded-lg px-4 py-2 m-2 bg-cyan-500 text-gray-900 font-bold text-lg hover:bg-cyan-600 transition-colors duration-300'>
                                         Demo
                                     </button>
                                 </a>
-                                <a href='https://github.com/ateebkhan96/Face-Mask-Detection' target="_blank">
+                                <a href='https://github.com/ateebkhan96/face-mask-detection-system' target="_blank">
                                     <button
                                         className='text-center rounded-lg px-4 py-2 m-2 bg-cyan-500 text-gray-900 font-bold text-lg hover:bg-cyan-600 transition-colors duration-300'>
                                         Code
