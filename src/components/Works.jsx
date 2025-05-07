@@ -8,7 +8,7 @@ const Works = () => {
                     <p className='text-4xl mt-10 font-bold inline border-b-4 text-gray-300 border-cyan-500'>
                         Projects
                     </p>
-                    <p className='py-6 text-2xl '>Check out some of my most recent work</p>
+                    <p className='py-6 text-2xl '>Check out some of my most recent projects</p>
                 </div>
                 {/* Container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8'>
@@ -20,13 +20,13 @@ const Works = () => {
                         {/* Default Title */}
                         <div
                             className='absolute text-center text-2xl font-bold text-[#2c2d47] tracking-wider group-hover:opacity-0 transition-opacity duration-300'>
-                            Face Mask Detection
+                            Face Mask Detection Webapp
                         </div>
                         {/* Hover Effects */}
                         <div
                             className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col transition-opacity duration-300 p-4'>
                             <span className='text-lg font-bold text-white tracking-wider text-center'>
-                                Face Mask Detection webapp uses DenseNet for accurate classification and MediaPipe for face detection.
+                                Face Mask Detection webapp uses DenseNet for mask classification and MediaPipe for face detection.
                             </span>
                             <p className='text-center mt-2 text-black'>This application uses DenseNet and Mediapipe to detect face masks in images
                                 😷</p>
