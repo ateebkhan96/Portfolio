@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.22093c14.css",
-    "main.js": "/Portfolio/static/js/main.7ec3b885.js",
+    "main.css": "/Portfolio/static/css/main.46278b9f.css",
+    "main.js": "/Portfolio/static/js/main.bc4abf1e.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/flask.svg": "/Portfolio/static/media/flask.0eabf7e7b579578090f552335f294e0f.svg",
     "static/media/streamlit-logo-primary-colormark-darktext.png": "/Portfolio/static/media/streamlit-logo-primary-colormark-darktext.3c1b4f345e6d178dacc0.png",
@@ -21,12 +21,12 @@
     "static/media/icons8-css.svg": "/Portfolio/static/media/icons8-css.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/icons8-html.svg": "/Portfolio/static/media/icons8-html.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/icons8-tensorflow.svg": "/Portfolio/static/media/icons8-tensorflow.d978d6b0a450f5416ab4aa62d3795a0c.svg",
-    "main.22093c14.css.map": "/Portfolio/static/css/main.22093c14.css.map",
-    "main.7ec3b885.js.map": "/Portfolio/static/js/main.7ec3b885.js.map",
+    "main.46278b9f.css.map": "/Portfolio/static/css/main.46278b9f.css.map",
+    "main.bc4abf1e.js.map": "/Portfolio/static/js/main.bc4abf1e.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22093c14.css",
-    "static/js/main.7ec3b885.js"
+    "static/css/main.46278b9f.css",
+    "static/js/main.bc4abf1e.js"
   ]
 }
